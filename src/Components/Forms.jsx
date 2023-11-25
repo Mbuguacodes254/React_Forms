@@ -4,12 +4,12 @@ class Forms extends Component {
   constructor(props) {
     super(props)
   
-this.state = {
-  value: '',
-  email: '',
-  password: '',
-  welcomeMessage: ''
-};
+    this.state = {
+      value: '',
+      email: '',
+      password: '',
+      welcomeMessage: ''
+    };
 
   this.handleChange = this.handleChange.bind(this)
   this.handleSubmit = this.handleSubmit.bind(this)
